@@ -25,13 +25,12 @@ $dark-gray-color: #333;
 $medium-gray-color: #999;
 $light-gray-color: #ccc;
 $gray-color: #888;
-$soft-blue: #3fdee9;
 
 // Font Colors
 $base-font-color: rgba($gray-color, .8);
 
 // Border
-$base-border-color: $soft-blue; //$light-gray-color;
+$base-border-color: $light-gray-color;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
