@@ -53,7 +53,7 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: $light-blue;//$action-color;
   text-decoration: none;
   transition: color $base-duration $base-timing;
 
