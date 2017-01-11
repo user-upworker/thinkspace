@@ -256,7 +256,7 @@ hr {
 }
 
 .divider {
-  border-top: 0.2em solid lighten($new-dark-grey-color, 13%);
+  border-top: 0.2em solid $new-dark-grey-color;
   margin-bottom: $base-spacing * 2;
   margin-top: $base-spacing * 2;
 }
