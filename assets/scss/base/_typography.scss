@@ -53,15 +53,15 @@ p {
 }
 
 a {
-  color: $light-blue;//$action-color;
+  //color: $action-color;
+  color: $light-blue;
   text-decoration: none;
   transition: color $base-duration $base-timing;
 
   &:active,
   &:focus,
   &:hover {
-    //color: shade($action-color, 25%);
-    color: shade($light-blue, 25%);
+    color: shade($action-color, 25%);
   }
 }
 
