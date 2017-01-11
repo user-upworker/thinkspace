@@ -87,14 +87,14 @@ blockquote {
 }
 
 code {
-  background: none;
+  background: #0e1b2d;//none;
   border-radius: 0;
   border: none;
   font-family: $base-font-family;
   font-size: 0.9em;
   margin: 0;
   padding: 0 5px;
-  background-color: $dark-blue;//lighten($light-gray-color, 13%);
+  background-color: lighten($light-gray-color, 13%);
 }
 
 pre {
