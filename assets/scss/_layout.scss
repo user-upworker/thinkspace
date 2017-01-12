@@ -126,6 +126,7 @@ hr {
   a {
     //@extend .link;
 	  color: $light-gray-color;
+	  @include transition(border 300ms linear);
 	  
 	  &:hover,
 	  &:focus,
