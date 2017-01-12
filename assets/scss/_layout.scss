@@ -124,7 +124,14 @@ hr {
   }
 
   a {
-    @extend .link;
+    //@extend .link;
+	  color: $light-gray-color;
+	  
+	  &:hover,
+	  &:focus,
+	  &:active{
+		  color: $light-blue;
+	  }
   }
 }
 
