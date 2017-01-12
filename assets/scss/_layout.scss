@@ -131,6 +131,7 @@ hr {
 	  &:focus,
 	  &:active{
 		  color: $light-blue;
+		  border-bottom: 2px solid $light-blue;
 	  }
   }
 }
